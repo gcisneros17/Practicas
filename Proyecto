@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Portafolio.la</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="../static/css/normalize.css">
+		<link rel="stylesheet" href="../static/css/style.css">
+	</head>
+	<body>
+		<header id="yo" class="Header">
+			<nav class="MainMenu">
+				<ul class="MainMenu-list">
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#yo">Yo</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#perfil">Perfil</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link" href="#trabajo">Trabajo</a>
+					</li>
+					<li class="MainMenu-item">
+						<a class="MainMenu-link"  href="#contacto">Conctacto</a>
+					</li>
+				</ul>
+			</nav>
+			<figure class="Header-imageContainer">
+				<img src="../static/images/avata.jpg" class="Header-image"/>
+				<figcaption class="Header-imageDescription">
+					<a class="Header-link" href="https://twitter.com/gcisneros17a" target="_black">@Gcisneros17a</a>
+				</figcaption>
+				<p class="Header-name">Anahi Cisneros</p>
+			</figure>
+		</header>
+		<section id="perfil" class="Perfil">
+			<h2 class="Perfil-titulo u-title">Mi perfil</h2>
+			<p class="Perfil-descripcion">
+				Hola! Si llegaste hasta aqui puedes ver mi portafolio y contactarme
+			</p>
+			<a class="Profile-link" href="https://twitter.com/gcisneros17a" target="_black">@Gcisneros17a</a>
+			<a class="Profile-link" href="https://www.facebook.com/ichwilldu" target="_black">Gcisneros</a>
+			<a class="Profile-link" href="https://github.com/gcisneros17" target="_black">Gcisneros17a</a>
+		</section>
+		<section id="trabajo" class="Work">
+			<h2 class="Work-title u-title">Mi trabajo</h2>
+			<article class="Work-item">
+				<figure class="work-imageContainer">
+					<img src="../static/images/logito1.jpg" />
+					<figcaption  class="Work-description">Website de mejorando.la</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">
+				<figure class="work-imageContainer">
+					<img src="../static/images/logito2.png"/>
+					<figcaption class="Work-description">Website de mejorando.la</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">
+				<figure class="work-imageContainer">
+					<img src="../static/images/logiyooo.jpg"/>
+					<figcaption class="Work-description">Website de mejorando.la</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">
+				<figure class="work-imageContainer">
+					<img src="../static/images/loguito1.png"/>
+					<figcaption class="Work-description">Website de mejorando.la</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">
+				<figure class="work-imageContainer">
+					<img src="../static/images/thumb3.jpg"/>
+					<figcaption class="Work-description">Website de mejorando.la</figcaption>
+				</figure>
+			</article>
+			<article class="Work-item">
+				<figure class="work-imageContainer">
+					<img src="../static/images/proyecto.jpg"/>
+					<figcaption class="Work-description">Website de mejorando.la</figcaption>
+				</figure>
+			</article>
+		</section>
+		<footer id="contacto" class="Footer">
+			<div class="Footer-left">
+				<h3 class="Footer-title">Contacto</h3>
+					<p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+			</div>
+			<form class="Footer-form">
+				<input class="Footer-formInput" type="text" placeholder="Nombre"/>
+				<input class="Footer-formInput" type="email" placeholder="Email"/>
+				<TEXTAREA class="Footer-textarea"placeholder="Motivo"></TEXTAREA>
+				<button type="submit" class="Footer-button">Contactarme</button>
+			</form>
+		</footer>
+	</body>
+</html>
